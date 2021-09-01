@@ -4,26 +4,26 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="None">
         
         
-        <link rel="shortcut icon" href="img/favicon.ico">
-        <title>BeePower</title>
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-        <link href="css/font-awesome.min.css" rel="stylesheet">
-        <link href="css/base.css" rel="stylesheet">
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Research - BeePower</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css">
 
-        <script src="js/jquery-1.10.2.min.js" defer></script>
-        <script src="js/bootstrap.min.js" defer></script>
+        <script src="../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../js/bootstrap.min.js" defer></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
         <script>hljs.initHighlightingOnLoad();</script> 
     </head>
 
-    <body class="homepage">
+    <body>
         <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
             <div class="container">
-                <a class="navbar-brand" href=".">BeePower</a>
+                <a class="navbar-brand" href="..">BeePower</a>
                 <!-- Expander button -->
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
                     <span class="navbar-toggler-icon"></span>
@@ -33,17 +33,17 @@
                 <div id="navbar-collapse" class="navbar-collapse collapse">
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href=".." class="nav-link">Homepage</a>
+                            </li>
                             <li class="navitem active">
-                                <a href="." class="nav-link">Homepage</a>
+                                <a href="./" class="nav-link">Research</a>
                             </li>
                             <li class="navitem">
-                                <a href="research/" class="nav-link">Research</a>
+                                <a href="../teaching/" class="nav-link">Teaching</a>
                             </li>
                             <li class="navitem">
-                                <a href="teaching/" class="nav-link">Teaching</a>
-                            </li>
-                            <li class="navitem">
-                                <a href="contact/" class="nav-link">Contact</a>
+                                <a href="../contact/" class="nav-link">Contact</a>
                             </li>
                         </ul>
 
@@ -54,12 +54,12 @@
                             </a>
                         </li>
                             <li class="nav-item">
-                                <a rel="prev" class="nav-link disabled">
+                                <a rel="prev" href=".." class="nav-link">
                                     <i class="fa fa-arrow-left"></i> Previous
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a rel="next" href="research/" class="nav-link">
+                                <a rel="next" href="../teaching/" class="nav-link">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
@@ -81,17 +81,17 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-level="2"><a href="#work" class="nav-link">Work</a>
+            <li class="nav-item" data-level="1"><a href="#topics-of-interest" class="nav-link">Topics of interest</a>
               <ul class="nav flex-column">
               </ul>
             </li>
             
-            <li class="nav-item" data-level="2"><a href="#education" class="nav-link">Education</a>
+            <li class="nav-item" data-level="1"><a href="#publications" class="nav-link">Publications</a>
               <ul class="nav flex-column">
               </ul>
             </li>
             
-            <li class="nav-item" data-level="2"><a href="#updates" class="nav-link">Updates</a>
+            <li class="nav-item" data-level="1"><a href="#research-projects" class="nav-link">Research projects</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -100,27 +100,37 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<p><img alt="Personal Photo" src="image/photo.JPG" title="my photo" /></p>
-<h2 id="work">Work</h2>
+<h1 id="topics-of-interest">Topics of interest</h1>
+<hr />
 <ul>
-<li>2021.8 - preset<br />
-    College of Information Science and Engineering, NingboTech University</li>
-<li>2017.7 - 2021.6<br />
-    College of Information Science and Engineering, Ningbo University</li>
+<li>Stability analysis and control of power systems</li>
+<li>Numerical algorithms for eigenvalue and DAE problems</li>
+<li>Application of parallel computing</li>
+<li>Prediction of renewable generation</li>
 </ul>
-<h2 id="education">Education</h2>
-<ul>
-<li>2012.9 - 2017.6   <ul>
-<li>pursued degree of Ph.D. in Electrical Engineering from Zhejiang University, supervised by professor <strong>Jiang Quanyuan</strong></li>
-<li>Title of Dissertation: Parallelized Analysis Methods for Critical Eigenvalue of Large Scale Power Systems (大规模电力系统关键特征值的并行化分析方法研究)</li>
-</ul>
-</li>
-<li>2008.2 - 2012.2  <ul>
-<li>pursued degree of bachelor from Zhejiang University</li>
-</ul>
-</li>
-</ul>
-<h2 id="updates">Updates</h2></div>
+<h1 id="publications">Publications</h1>
+<hr />
+<ol>
+<li>Zhou Xinyan*, <strong>Li Yongjie</strong>, He Di, Zhang Chengyi, Ji Xiaoyu, Energy-Efficient Channel Allocation Based Data Aggregation for Intertidal Wireless Sensor Networks. <em>IEEE Sensors Journal</em>. 2021, 21(15).</li>
+<li><strong>Li Yongjie*</strong>, Huang Jie, Zhang Chengyi, Zhou Xinyan, He Di, Li Wenlei, Shi Xuhua. Moving Window Optimization with Flexible Temporal Structure for Operating Grid-Connected Photovoltaic Microgrids. <em>Electric Power Systems Research</em>. 2020, 187: 106510.</li>
+<li><strong>Li Yongjie*</strong>, Geng Guangchao, Jiang Quanyuan, Li Wenlei, Shi Xuhua. A Sequential Approach for Small Signal Stability Enhancement with Optimizing Generation Cost. <em>IEEE Transactions on Power Systems</em>. 2019, 34(6): 4828-4836.</li>
+<li><strong>Li Yongjie*</strong>, Li Wenlei, Shi Xuhua, Chen Xiaoxia. An Efficient Numerical Method for Computing Eigenvalue Sensitivity with Respect to Operational Parameters of Large-scale Power Systems. <em>Electric Power Systems Research</em>. 2019, 174: 105859.</li>
+<li><strong>Li Yongjie</strong>, Geng Guangchao*, Jiang Quanyuan. A Parallelized Contour Integral Rayleigh–Ritz Method for Computing Critical Eigenvalues of Large-Scale Power Systems. <em>IEEE Transactions on Smart Grid</em>. 2018, 9(4): 3573-3581.</li>
+<li><strong>Li Yongjie</strong>, Geng Guangchao, Jiang Quanyuan*. A Parallel Contour Integral Method for Eigenvalue Analysis of Power Systems. <em>IEEE Transactions on Power Systems</em>. 2017, 32(1): 624-632.</li>
+<li><strong>Li Yongjie</strong>, Geng Guangchao, Jiang Quanyuan*. An Efficient Parallel Krylov-Schur Method for Eigen-Analysis of Large-Scale Power Systems. <em>IEEE Transactions on Power Systems</em>. 2016, 31(2): 920-930.</li>
+<li>Zhao Ming-Min*, Shi Qingjiang, Cai Yunlong, Zhao Min-Jian, <strong>Li Yongjie</strong>. Distributed Penalty Dual Decomposition Algorithm for Optimal Power Flow in Radial Networks. <em>IEEE Transactions on Power Systems</em>. 2020, 35(3): 2176-2189.</li>
+<li>张程熠，唐雅洁，<strong>李永杰</strong>，高强，江全元*. 适用于小样本的神经网络光伏预测方法. <em>电力自动化设备</em>. 2017, 37(01): 101-106.</li>
+<li>彭勃，张逸，熊军，董树锋*，<strong>李永杰</strong>. 结合负荷形态指标的电力负荷曲线两步聚类算法. <em>电力建设</em>. 2016, 37(06): 96-102.</li>
+<li>杨博*，<strong>李永杰</strong>，江全元，魏路平，占震滨. 应用Prony算法的广域量测信号时延补偿方法. <em>电网技术</em>. 2016, 40(06): 1778-1784.</li>
+<li>杨博*，魏路平，占震滨，<strong>李永杰</strong>，江全元，戚军. 基于概率分布的广域测量系统时延特性分析. <em>电力系统自动化</em>. 2015, 39(12): 38-43.</li>
+</ol>
+<h1 id="research-projects">Research projects</h1>
+<hr />
+<ol>
+<li>大规模电力电子化电力系统的经济性和稳定性协同优化方法研究, 2020.01-2022.12, 浙江省自然科学基金</li>
+<li>基于群体协同的区域性分布式光伏发电预测方法研究, 2019.01-2021.12, 宁波市自然科学基金项目</li>
+<li>电力系统换流器控制参数的协同整定方法研究, 2019.10-2022.10, 浙江省教育厅一般项目</li>
+</ol></div>
             </div>
         </div>
 
@@ -129,11 +139,11 @@
             <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
         </footer>
         <script>
-            var base_url = ".",
+            var base_url = "..",
                 shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
         </script>
-        <script src="js/base.js" defer></script>
-        <script src="search/main.js" defer></script>
+        <script src="../js/base.js" defer></script>
+        <script src="../search/main.js" defer></script>
 
         <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
@@ -198,8 +208,3 @@
 
     </body>
 </html>
-
-<!--
-MkDocs version : 1.2.2
-Build Date UTC : 2021-09-01 14:31:23.859015+00:00
--->
