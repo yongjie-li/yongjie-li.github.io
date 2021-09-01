@@ -5,4 +5,14 @@
          <lastmod>2021-09-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
+    <url>
+         <loc>https://yongjie-li.github.io/about/</loc>
+         <lastmod>2021-09-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://yongjie-li.github.io/publication/</loc>
+         <lastmod>2021-09-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
 </urlset>
